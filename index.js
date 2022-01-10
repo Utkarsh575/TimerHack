@@ -1,8 +1,7 @@
 const countDown=()=>{
-    let x="14";
-    dataData=`"Jan ${x},2022 00:00:00"`;
-    // const countDate = new Date(`"Jan ${x},2022 00:00:00"`).getTime();
-    const countDate = new Date(dataData).getTime();
+
+    const countDate = new Date("Jan 15,2022 00:00:00").getTime();
+    
     const now = new Date().getTime();
     const gap =  countDate - now;
 

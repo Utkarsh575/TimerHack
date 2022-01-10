@@ -24,5 +24,5 @@ const countDown=()=>{
 
 };
 
-setInterval(countDown,1);
+setInterval(countDown,1000);
 
